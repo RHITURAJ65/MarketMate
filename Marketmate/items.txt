@@ -1,0 +1,9 @@
+biscuit   20    2967
+Banana   50    9994
+biscuit   20    3000
+bread   50    8000
+Beef   750    20000
+mutton   1100    8200
+chicken   250    5700
+Hilsha   1200    6500
+kisu_akta   10    2221143

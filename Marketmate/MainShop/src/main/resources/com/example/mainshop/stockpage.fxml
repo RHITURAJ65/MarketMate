@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" style="-fx-background-color: #000137;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainshop.stockcontroller">
+   <children>
+      <TableView fx:id="table_stock" layoutX="407.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="485.0">
+         <columns>
+            <TableColumn fx:id="item_stock" onEditCommit="#oneditchange1" prefWidth="135.0" text="Item" />
+            <TableColumn fx:id="price_stock" onEditCommit="#oneditchange2" prefWidth="166.0" text="Price per kg/bag/piece" />
+            <TableColumn fx:id="stock_stock" minWidth="0.0" onEditCommit="#oneditchange3" prefWidth="176.0" text="Stock in total price" />
+         </columns>
+      </TableView>
+      <Button layoutX="94.0" layoutY="357.0" mnemonicParsing="false" onAction="#stock_add" prefHeight="25.0" prefWidth="85.0" text="Add" />
+      <TextField fx:id="item_field" layoutX="84.0" layoutY="185.0" prefHeight="25.0" prefWidth="230.0" promptText="Enter Item name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="price_per_kg_field" layoutX="84.0" layoutY="234.0" prefHeight="25.0" prefWidth="230.0" promptText="Enter Price per kg/bag/piece of this item" />
+      <TextField fx:id="stock_field" layoutX="84.0" layoutY="281.0" prefHeight="25.0" prefWidth="230.0" promptText="stock in total price" />
+      <Button layoutX="215.0" layoutY="357.0" mnemonicParsing="false" onAction="#stock_remove" prefHeight="25.0" prefWidth="85.0" text="Remove" />
+      <Button layoutX="157.0" layoutY="448.0" mnemonicParsing="false" onAction="#back_stockcontroller" prefHeight="25.0" prefWidth="85.0" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="searchs" layoutX="84.0" layoutY="136.0" prefHeight="25.0" prefWidth="230.0" promptText="Search">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <Text fill="WHITE" layoutX="154.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="32.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

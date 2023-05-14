@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainshop.HelloController">
+   <children>
+      <AnchorPane prefHeight="159.0" prefWidth="900.0" style="-fx-background-color: #000137;">
+         <children>
+            <Text fill="WHITE" layoutX="107.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop Management">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@remover.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="124.0" layoutY="230.0" mnemonicParsing="false" onAction="#ShowMyBuisnessProfile" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="My Buisness Profile" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="360.0" layoutY="230.0" mnemonicParsing="false" onAction="#show_babsar_poristiti" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="Deal History" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="603.0" layoutY="230.0" mnemonicParsing="false" onAction="#ShowStock" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="Stock" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="360.0" layoutY="368.0" mnemonicParsing="false" onAction="#ShowStaff" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="Staff Info" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="124.0" layoutY="368.0" mnemonicParsing="false" onAction="#ShowCustomer" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="Customer" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="603.0" layoutY="368.0" mnemonicParsing="false" onAction="#ShowLoginpage" prefHeight="91.0" prefWidth="181.0" style="-fx-background-color: #000137;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

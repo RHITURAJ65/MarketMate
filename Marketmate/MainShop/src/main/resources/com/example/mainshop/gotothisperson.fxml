@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainshop.thispersoncontroller">
+   <children>
+      <Label fx:id="namelabel" layoutX="231.0" layoutY="219.0" prefHeight="23.0" prefWidth="490.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button layoutX="504.0" layoutY="313.0" mnemonicParsing="false" onAction="#remove" prefHeight="92.0" prefWidth="159.0" style="-fx-background-color: #02055A;" text="Remove This Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="231.0" layoutY="313.0" mnemonicParsing="false" onAction="#todayshoppingbutton" prefHeight="92.0" prefWidth="159.0" style="-fx-background-color: #02055A;" text="Today Shopping" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="821.0" layoutY="494.0" mnemonicParsing="false" onAction="#back_thispersoncontroller" prefHeight="41.0" prefWidth="65.0" style="-fx-background-color: #02055A;" text="Back" textFill="WHITE" />
+      <AnchorPane prefHeight="180.0" prefWidth="900.0" style="-fx-background-color: #000137;">
+         <children>
+            <Text fill="WHITE" layoutX="63.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop Management">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="23.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="167.0" fitWidth="174.0" layoutX="75.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@remover.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
